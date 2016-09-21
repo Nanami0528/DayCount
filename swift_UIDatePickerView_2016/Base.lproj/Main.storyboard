@@ -29,7 +29,7 @@
                                     <!--2016-07-30 16:47:38 +0000-->
                                 </date>
                                 <connections>
-                                    <action selector="selectDate:" destination="BYZ-38-t0r" eventType="valueChanged" id="dae-oL-DVI"/>
+                                    <action selector="selectDatePicker:" destination="BYZ-38-t0r" eventType="valueChanged" id="bck-2V-ntz"/>
                                 </connections>
                             </datePicker>
                         </subviews>

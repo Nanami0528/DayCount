@@ -15,6 +15,7 @@
 		E946684B1D4D085C00D9D68D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E94668491D4D085C00D9D68D /* LaunchScreen.storyboard */; };
 		E94668561D4D085D00D9D68D /* swift_UIDatePickerView_2016Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E94668551D4D085D00D9D68D /* swift_UIDatePickerView_2016Tests.swift */; };
 		E94668611D4D085D00D9D68D /* swift_UIDatePickerView_2016UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E94668601D4D085D00D9D68D /* swift_UIDatePickerView_2016UITests.swift */; };
+		E949D0551D919332001B99E0 /* DateEntry.swift in Sources */ = {isa = PBXBuildFile; fileRef = E949D0541D919332001B99E0 /* DateEntry.swift */; };
 		F340EBE85AA36382BE20B9E6 /* Pods_swift_UIDatePickerView_2016Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F7F93ABBC534E8D0727DA6D /* Pods_swift_UIDatePickerView_2016Tests.framework */; };
 		F4A4372B33148F63FA2B59DA /* Pods_swift_UIDatePickerView_2016.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5E929CB88EC2B603F9D18B4 /* Pods_swift_UIDatePickerView_2016.framework */; };
 /* End PBXBuildFile section */
@@ -57,6 +58,7 @@
 		E946685C1D4D085D00D9D68D /* swift_UIDatePickerView_2016UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = swift_UIDatePickerView_2016UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E94668601D4D085D00D9D68D /* swift_UIDatePickerView_2016UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = swift_UIDatePickerView_2016UITests.swift; sourceTree = "<group>"; };
 		E94668621D4D085D00D9D68D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E949D0541D919332001B99E0 /* DateEntry.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DateEntry.swift; sourceTree = "<group>"; };
 		F04BC033F1BF0AD482F0B906 /* Pods-swift_UIDatePickerView_2016Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-swift_UIDatePickerView_2016Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-swift_UIDatePickerView_2016Tests/Pods-swift_UIDatePickerView_2016Tests.release.xcconfig"; sourceTree = "<group>"; };
 		F5E929CB88EC2B603F9D18B4 /* Pods_swift_UIDatePickerView_2016.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_swift_UIDatePickerView_2016.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -139,6 +141,7 @@
 			children = (
 				E94668401D4D085C00D9D68D /* AppDelegate.swift */,
 				E94668421D4D085C00D9D68D /* ViewController.swift */,
+				E949D0541D919332001B99E0 /* DateEntry.swift */,
 				E94668441D4D085C00D9D68D /* Main.storyboard */,
 				E94668471D4D085C00D9D68D /* Assets.xcassets */,
 				E94668491D4D085C00D9D68D /* LaunchScreen.storyboard */,
@@ -431,6 +434,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E94668431D4D085C00D9D68D /* ViewController.swift in Sources */,
+				E949D0551D919332001B99E0 /* DateEntry.swift in Sources */,
 				E94668411D4D085C00D9D68D /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

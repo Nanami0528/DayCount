@@ -7,6 +7,9 @@
 //
 
 import UIKit
+import RealmSwift
+
+
 
 class ViewController: UIViewController {
     
@@ -15,9 +18,9 @@ class ViewController: UIViewController {
     @IBOutlet var Label: UILabel!
     
     // UIDatePicker変更時に呼び出されるメソッド
-    @IBAction func selectDate(sender: UIDatePicker) {
+    @IBAction func selectDatePicker(sender: UIDatePicker) {
     
-        // フォーマットを生成
+        // フォーマットを生成$
         let dateFormatter = NSDateFormatter()
         dateFormatter.dateFormat = "yyyy/M/dd "
         // 日付をフォーマットに則って取得.
@@ -31,6 +34,10 @@ class ViewController: UIViewController {
         //1日ずれるから1足す 
         days = days + 1
         print(days)
+        
+        
+       
+        
      
            }
     
@@ -39,6 +46,25 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        let me = DateEntry()
+        me.daysDate = 2
+        
+        let realm = try! Realm()
+        try! realm.write {
+            realm.add(me)
+        }
+        
+        print(realm.objects(DateEntry))
+        
+
+        
+        
+        
+        
+        
+        
+        
         // Do any additional setup after loading the view, typically from a nib.
     }
 
